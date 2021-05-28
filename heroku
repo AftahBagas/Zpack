@@ -49,7 +49,7 @@ _displaylogo () {
                            ░               
 ===========================================
 |            VERSION  v0.1.0              |
-|    By: @kanjengingsub and aftahbagas    |
+|    By: @kanjengingsun and aftahbagas    |
 |           (C) 2021 - Alpha-Z            |
 ===========================================
 '
@@ -95,7 +95,7 @@ _startbot () {
     local bot_dir
     bot_dir=$(cd $WORK_DIR && ls) && mv "$WORK_DIR/$bot_dir" "Alpha-Z"
     rm -rf $WORK_DIR
-    cd "USERGE-X"
+    cd "Alpha-Z"
     git init > /dev/null 2>&1
     echo -e ">><< --- >><<  Starting [X]  >><< --- >><<\n" | indent
     bash run
