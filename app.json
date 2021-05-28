@@ -1,4 +1,10 @@
-{
+    {
+        "name":"Alpha-Z Deploypack",
+        "description":"Userbot Plugins",
+        "logo":"https://telegra.ph/file/b8c4935a277592df59ac9.jpg",
+        "keywords":[
+            "Yo"
+        ],
 	"env": {
 		"API_ID": {
 			"description": "Get this value from https://my.telegram.org"
