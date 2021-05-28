@@ -1,18 +1,17 @@
-# MyGpack
+# Plugins Pack
 
-### X Deploy Edition
+### Alpha-Z Deploy Edition
 
 <p align="center">
 
-<a href = "https://heroku.com/deploy?template=https://github.com/code-pms/MyGpack"><img src="https://www.herokucdn.com/deploy/button.svg" alt="MyGpac"> </a>
+<a href = "https://heroku.com/deploy?template=https://github.com/aftahbagas/Zpack"><img src="https://www.herokucdn.com/deploy/button.svg" alt="MyGpac"> </a>
 
 </p>
 
 ## Credits
 
-- @midnightmadwalk
-- @DeletedUser420
+- @kanjengingsun
 
 ## Based on:
 
-https://github.com/midnightmadwalk/MyGpack
+https://github.com/AftahBagas/Zpack
