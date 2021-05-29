@@ -40,7 +40,7 @@
 		},
 		"UPSTREAM_REPO": {
 			"description": "fill only if you maintain a fork !, else leave empty",
-                        "value": "https://github.com/AftahBagas/Alpha-Z",
+                        "value": "https://github.com/AftahBagas/Alpha_Z",
                         "required": false
 		},
 		"OWNER_ID": {
