@@ -42,10 +42,10 @@
 			"description": "Your user_id(s) e.g 123456789 or mutiple ids",
 			"required": false
 		},
-		"PREF_BRANCH": {
-			"description": "Upstream repo preffered branch. (Dont Touch This !)",
+		"UPSTREAM_REPO": {
+			"description": "Upstream repo. (Dont Touch This !)",
 			"required": false,
-			"value": "alphaz"
+			"value": "https://github.com/AftahBagas/AlphaZ-Plugins"
 		}
 	},
 	"buildpacks": [
