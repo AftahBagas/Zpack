@@ -36,7 +36,7 @@
 		"UPSTREAM_REPO": {
 			"description": "fill only if you maintain a fork !, else leave empty",
                         "value" : "https://github.com/AftahBagas/Alpha-Z"
-			"required": true
+			"requested": flase
 		},
 		"OWNER_ID": {
 			"description": "Your user_id(s) e.g 123456789 or mutiple ids",
