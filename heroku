@@ -61,15 +61,15 @@ get_branch () {
     then
         branch=$(echo $PREF_BRANCH | xargs)
     else
-        branch=alphaz
+        branch=alpha
     fi
     echo "/archive/refs/heads/$branch.zip"
 }
 
 get_ziplink () {
-    local alphaz
-    alphaz='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO =~ $alphaz ]]
+    local regex
+    regex='(https?)://github.com/.+/.+'
+    if [[ $UPSTREAM_REPO =~ $regex ]]
     then 
         echo "${UPSTREAM_REPO}$(get_branch)"
     else
