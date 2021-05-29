@@ -38,11 +38,6 @@
 			"description": "Get this from https://t.me/botfather and enable Inline Mode. (ADD YOUR BOT IN LOG CHANNEL)",
 			"required": false
 		},
-		"UPSTREAM_REPO": {
-			"description": "fill only if you maintain a fork !, else leave empty",
-                        "value": "https://github.com/AftahBagas/Alpha-Z",
-                        "required": false
-		},
 		"OWNER_ID": {
 			"description": "Your user_id(s) e.g 123456789 or mutiple ids",
 			"required": false
@@ -50,7 +45,7 @@
 		"PREF_BRANCH": {
 			"description": "Upstream repo preffered branch. (Dont Touch This !)",
 			"required": false,
-			"value": "alpha"
+			"value": "alphaz"
 		}
 	},
 	"buildpacks": [
