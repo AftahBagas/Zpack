@@ -24,6 +24,11 @@
 		"HEROKU_API_KEY": {
 			"description": "[Required] Get a Heroku API key from http://dashboard.heroku.com/account",
 			"required": false
+                },
+                "COMMAND_HAND_LER": {
+                        "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
+                        "value": ".",
+                        "required": false
 		},
 		"HU_STRING_SESSION": {
 			"description": "Get this using 'https://repl.it/@Leorio/stringsessiongen' or `bash genStr`",
@@ -35,8 +40,8 @@
 		},
 		"UPSTREAM_REPO": {
 			"description": "fill only if you maintain a fork !, else leave empty",
-                        "value" : "https://github.com/AftahBagas/Alpha-Z"
-			"requested": flase
+                        "value": "https://github.com/AftahBagas/Alpha-Z",
+                        "required": false
 		},
 		"OWNER_ID": {
 			"description": "Your user_id(s) e.g 123456789 or mutiple ids",
