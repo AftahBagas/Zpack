@@ -44,7 +44,7 @@
 		},
 		"UPSTREAM_REPO": {
 			"description": "Upstream repo. (Dont Touch This !)",
-			"required": false,
+			"required": true,
 			"value": "https://github.com/AftahBagas/AlphaZ-Plugins"
 		}
 	},
