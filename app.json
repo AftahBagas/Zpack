@@ -23,7 +23,7 @@
 		},
 		"HEROKU_API_KEY": {
 			"description": "[Required] Get a Heroku API key from http://dashboard.heroku.com/account",
-			"required": true
+			"required": false
                 },
                 "COMMAND_HAND_LER": {
                         "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
@@ -32,7 +32,7 @@
 		},
 		"HU_STRING_SESSION": {
 			"description": "Get this using 'https://repl.it/@Leorio/stringsessiongen' or `bash genStr`",
-			"required": true
+			"required": false
 		},
 		"BOT_TOKEN": {
 			"description": "Get this from https://t.me/botfather and enable Inline Mode. (ADD YOUR BOT IN LOG CHANNEL)",
