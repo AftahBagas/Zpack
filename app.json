@@ -44,7 +44,7 @@
 		},
 		"PREF_BRANCH": {
 			"description": "Upstream repo preffered branch. (Dont Touch This !)",
-			"required": true,
+			"required": false,
 			"value": "alpha"
 		}
 	},
