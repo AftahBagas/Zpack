@@ -44,8 +44,8 @@
 		},
 		"PREF_BRANCH": {
 			"description": "Upstream repo preffered branch. (Dont Touch This !)",
-			"required": false,
-			"value": "alphaz"
+			"required": true,
+			"value": "alpha"
 		}
 	},
 	"buildpacks": [
