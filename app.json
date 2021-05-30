@@ -17,13 +17,14 @@
 		},
 		"HEROKU_APP_NAME": {
 			"description": "Given app name to the Heroku App"
+                        "required": true
 		},
 		"LOG_CHANNEL_ID": {
 			"description": "[ Private Telegram Log Channel ID ], Note: Also add your Bot to LOG CHANNEL !"
 		},
 		"HEROKU_API_KEY": {
 			"description": "[Required] Get a Heroku API key from http://dashboard.heroku.com/account",
-			"required": false
+			"required": true
                 },
                 "CMD_TRIGGER": {
                         "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
