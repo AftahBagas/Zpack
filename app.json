@@ -17,7 +17,6 @@
 		},
 		"HEROKU_APP_NAME": {
 			"description": "Given app name to the Heroku App"
-                        "required": true
 		},
 		"LOG_CHANNEL_ID": {
 			"description": "[ Private Telegram Log Channel ID ], Note: Also add your Bot to LOG CHANNEL !"
