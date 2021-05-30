@@ -36,7 +36,7 @@
 		},
 		"BOT_TOKEN": {
 			"description": "Get this from https://t.me/botfather and enable Inline Mode. (ADD YOUR BOT IN LOG CHANNEL)",
-			"required": true
+			"required": false
 		},
 		"OWNER_ID": {
 			"description": "Your user_id(s) e.g 123456789 or mutiple ids",
@@ -50,7 +50,7 @@
 	},
 	"buildpacks": [
 		{
-			"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+	          "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
 		},
 		{ "url": "https://github.com/HasibulKabir/heroku-buildpack-rarlab.git" },
 		{ "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip" },
