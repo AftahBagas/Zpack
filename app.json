@@ -32,15 +32,15 @@
 		},
 		"HU_STRING_SESSION": {
 			"description": "Get this using 'https://repl.it/@Leorio/stringsessiongen' or `bash genStr`",
-			"required": false
+			"required": true
 		},
 		"BOT_TOKEN": {
 			"description": "Get this from https://t.me/botfather and enable Inline Mode. (ADD YOUR BOT IN LOG CHANNEL)",
-			"required": false
+			"required": true
 		},
 		"OWNER_ID": {
 			"description": "Your user_id(s) e.g 123456789 or mutiple ids",
-			"required": false
+			"required": true
 		},
 		"PREF_BRANCH": {
 			"description": "Upstream repo preffered branch. (Dont Touch This !)",
